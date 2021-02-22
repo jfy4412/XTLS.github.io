@@ -17,5 +17,13 @@ weight: 2
 {{% /notice %}}
 
 {{% notice dark %}}
+<font size=3>[路由 (routing) 功能简析（上）](./routing-lv1-part1)</font>
+{{% /notice %}}
+
+{{% notice dark %}}
+<font size=3>[路由 (routing) 功能简析（下）](./routing-lv1-part2)</font>
+{{% /notice %}}
+
+{{% notice dark %}}
 <font size=3>[Xray的工作模式简析](./work)</font>
 {{% /notice %}}

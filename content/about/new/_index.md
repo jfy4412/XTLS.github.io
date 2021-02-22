@@ -9,6 +9,25 @@ post: "&nbsp;"
 title: 大史记
 weight: 1
 ---
+## 2021.01.25
+- 全互联网最好最详细的秘籍入门篇同学们练熟了吗? 🍉老师开始连载[秘籍第一层](../../documents/level-1/)咯...
+- [英文版文档网站](/en)逐渐增加内容ing, 感谢各位大佬的辛苦付出~!
+
+<br />
+
+## 2021.01.22
+
+###  [v1.2.3](https://github.com/XTLS/Xray-core/releases/tag/v1.2.3)
+---
+- 对 SS 协议的支持**又**变强了, 支持单端口多用户!
+- 对 trojan 协议的支持也**又**变强了, trojan 的回落也解锁 SNI 分流的新姿势啦~!
+- _(VLESS: 嘤嘤嘤)_
+- UDP 奇奇怪怪的 BUG 被干掉了, 一个字, "稳定".
+- 嗅探可以排除你不想嗅探的域名, 可以开启一些新玩法.
+- 向发现问题->开issue->自行测试->自行分析->自行找到问题->自行解决->然后给上下游提交PR的大佬 <img src="https://avatars2.githubusercontent.com/u/8384161?s=32" width="32px" height="32px" alt="a"/> [@Bohan Yang](https://github.com/bohanyang) 致敬!
+- 其他美味小樱桃, 惯例更新品尝就对啦.
+
+<br />
 
 ## 2021.01.19
 - 一些数字

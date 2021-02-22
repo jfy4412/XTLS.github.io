@@ -40,6 +40,8 @@ weight: 8
 **注意：** 请务必记得，`Xray` 的路由配置非常灵活，上面的说明只是无限可能性中的一种。
 
 借助 `geosite.dat` 和 `geoip.dat` 这两个文件，可以很灵活的从【域名】和【IP】这两个角度、不留死角的控制流量流出的方向。这比曾经单一笼统的 `GFWList` 强大很多很多，可以做到非常细致的微调：比如可以指定Apple域名直连或转发、指定亚马逊域名代理或转发，百度的域名屏蔽等等。。。）
+
+现在，[《路由 (routing) 功能简析》](../../level-1/routing-lv1-part1) 已经上限，我建议对路由功能有兴趣的同学，先继续跟着本文完成客户端的基础配置，之后再去这里详细学习。
 {{% /notice %}}
 
 
@@ -60,6 +62,10 @@ weight: 8
 - 连接的【安全】: `"allowInsecure": false`
 
 鉴于新人一般都会使用手机APP或者电脑的GUI客户端，我就把常用的客户端罗列在下面。每个客户端都有自己独特的配置界面，逐一截图展示并不现实，所以请你务必仔细阅读这些客户端的说明、然后把上述要素填入合适的地方即可。
+
+{{% notice warning  %}}
+**注意：** 许多工具其实是同时支持 `xray-core` 和 `v2fly-core` 的，但默认内置的不一定是哪个，所以别忘记检查一下是否是你想要的那个在工作哦！
+{{% /notice %}}
 
 -  **v2rayN - 适用于Windows平台**
     - 请从它的[GitHub仓库Release页面](https://github.com/2dust/v2rayN/releases)获取最新版
@@ -128,7 +134,7 @@ weight: 8
         // 注意，本例中我默认注释掉了日志文件，因为windows, macOS, Linux 需要写不同的路径，请自行配置
         "log": {
             // "access": "/home/local/xray_log/access.log",    // 访问记录
-            // "error": "/home/local/xray_log/error.log"    // 错误记录
+            // "error": "/home/local/xray_log/error.log",    // 错误记录
             "loglevel": "warning"        // 内容从少到多: "none", "error", "warning", "info", "debug" 
         },
         
